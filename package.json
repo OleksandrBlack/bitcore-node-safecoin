@@ -3,7 +3,7 @@
   "description": "Full node with extended capabilities using Bitcore and Safecoin",
   "version": "3.2.0",
   "main": "./index.js",
-  "repository": "git+ssh://git@github.com:Fair-Exchange/bitcore-node-safecoin.git",
+  "repository": "git://github.com/Fair-Exchange/bitcore-node-safecoin.git",
   "homepage": "https://github.com/Fair-Exchange/bitcore-node-safecoin",
   "bugs": {
     "url": "https://github.com/Fair-Exchange/bitcore-node-safecoin/issues"
@@ -62,7 +62,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "bitcoind-rpc": "git://github.com/TheTrunk/bitcoind-rpc#master",
-    "bitcore-lib-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-lib-safecoin#master",
+    "bitcore-lib-safecoin": "git://github.com/Fair-Exchange/bitcore-lib-safecoin#master",
     "body-parser": "^1.18.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
