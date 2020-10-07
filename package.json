@@ -1,7 +1,7 @@
 {
   "name": "bitcore-node-safecoin",
-  "description": "Full node with extended capabilities using Bitcore and Safecoin",
-  "version": "3.2.0",
+  "description": "Full node with extended capabilities using Bitcore and safecoin",
+  "version": "3.3.0",
   "main": "./index.js",
   "repository": "git://github.com/OleksandrBlack/bitcore-node-safecoin.git",
   "homepage": "https://github.com/OleksandrBlack/bitcore-node-safecoin",
@@ -62,7 +62,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "bitcoind-rpc": "git://github.com/OleksandrBlack/bitcoind-rpc#master",
-    "bitcore-lib-safecoin": "git://github.com/OleksandrBlack/bitcore-lib-safecoin#dev",
+    "bitcore-lib-safecoin": "git://github.com/OleksandrBlack/bitcore-lib-safecoin#master2",
     "body-parser": "^1.18.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
