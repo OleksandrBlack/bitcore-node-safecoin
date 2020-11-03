@@ -52,7 +52,7 @@
   ],
   "dependencies": {
     "async": "^2.5.0",
-    "bitcoind-rpc": "^0.6.0",
+    "bitcoind-rpc": "^0.7.2",
     "bitcore-lib-safecoin": "OleksandrBlack/bitcore-lib-safecoin",
     "body-parser": "^1.18.3",
     "colors": "^1.1.2",
