@@ -1,24 +1,33 @@
-Bitcore Node
+Bitcore Node Safecoin
 ============
 
-A Bitcoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Safecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
+## Explorer Guide
+### Part 1. Safecoin with extended RPC functionalities
+```bash
+wget -qO- https://raw.githubusercontent.com/OleksandrBlack/bitcore-node-safecoin/master/installSafecoind.sh | bash
+```
+### Part 2. Latest Safecoin insight explorer = bitcore-node-safecoin with insight-api-safecoin and insight-ui-safecoin
+```bash
+wget -qO- https://raw.githubusercontent.com/OleksandrBlack/bitcore-node-safecoin/master/installExplorer.sh | bash
+```
 ## Install
 
 ```bash
-npm install -g bitcore-node
+git clone https://github.com/OleksandrBlack/bitcore-node-safecoin.git
+cd bitcore-node-safecoin
+npm install
 bitcore-node start
 ```
 
-Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore).
-
 ## Prerequisites
 
-- GNU/Linux x86_32/x86_64, or OSX 64bit *(for bitcoind distributed binaries)*
+- GNU/Linux x86_32/x86_64, or OSX 64bit *(for safecoind distributed binaries)*
 - Node.js v0.10, v0.12 or v4
 - ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
-- ~200GB of disk storage
-- ~8GB of RAM
+- ~30GB of disk storage
+- ~2GB of RAM
 
 ## Configuration
 
@@ -37,9 +46,8 @@ This will create a directory with configuration files for your node and install 
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/bitpay/insight-api)
-- [Insight UI](https://github.com/bitpay/insight-ui)
-- [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service)
+- [Insight API](https://github.com/OleksandrBlack/insight-api-safecoin)
+- [Insight UI](https://github.com/OleksandrBlack/insight-ui-safecoin)
 
 ## Documentation
 
@@ -52,9 +60,6 @@ There are several add-on services available to extend the functionality of Bitco
 - [Bus](docs/bus.md) - Overview of the event bus constructor
 - [Release Process](docs/release.md) - Information about verifying a release and the release process.
 
-## Contributing
-
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
