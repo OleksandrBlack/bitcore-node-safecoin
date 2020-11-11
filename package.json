@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.3.0",
   "main": "./index.js",
-  "repository": "git://github.com/OleksandrBlack/bitcore-node-safecoin.git",
-  "homepage": "https://github.com/OleksandrBlack/bitcore-node-safecoin",
+  "repository": "git://github.com/Fair-Exchange/bitcore-node-safecoin.git",
+  "homepage": "https://github.com/Fair-Exchange/bitcore-node-safecoin",
   "bugs": {
-    "url": "https://github.com/OleksandrBlack/bitcore-node-safecoin/issues"
+    "url": "https://github.com/Fair-Exchange/bitcore-node-safecoin/issues"
   },
   "contributors": [
     {
@@ -68,8 +68,8 @@
   ],
   "dependencies": {
     "async": "^2.5.0",
-    "bitcore-lib-safecoin": "OleksandrBlack/bitcore-lib-safecoin",
-    "bitcoind-rpc": "OleksandrBlack/bitcoind-rpc",
+    "bitcore-lib-safecoin": "Fair-Exchange/bitcore-lib-safecoin",
+    "bitcoind-rpc": "Fair-Exchange/bitcoind-rpc",
     "body-parser": "^1.18.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",

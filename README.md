@@ -6,16 +6,16 @@ A Safecoin full node for building applications and services with Node.js. A node
 ## Explorer Guide
 ### Part 1. Safecoin with extended RPC functionalities
 ```bash
-wget -qO- https://raw.githubusercontent.com/OleksandrBlack/bitcore-node-safecoin/master/installSafecoind.sh | bash
+wget -qO- https://raw.githubusercontent.com/Fair-Exchange/bitcore-node-safecoin/master/installSafecoind.sh | bash
 ```
 ### Part 2. Latest Safecoin insight explorer = bitcore-node-safecoin with insight-api-safecoin and insight-ui-safecoin
 ```bash
-wget -qO- https://raw.githubusercontent.com/OleksandrBlack/bitcore-node-safecoin/master/installExplorer.sh | bash
+wget -qO- https://raw.githubusercontent.com/Fair-Exchange/bitcore-node-safecoin/master/installExplorer.sh | bash
 ```
 ## Install
 
 ```bash
-git clone https://github.com/OleksandrBlack/bitcore-node-safecoin.git
+git clone https://github.com/Fair-Exchange/bitcore-node-safecoin.git
 cd bitcore-node-safecoin
 npm install
 bitcore-node start
@@ -46,8 +46,8 @@ This will create a directory with configuration files for your node and install 
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/OleksandrBlack/insight-api-safecoin)
-- [Insight UI](https://github.com/OleksandrBlack/insight-ui-safecoin)
+- [Insight API](https://github.com/Fair-Exchange/insight-api-safecoin)
+- [Insight UI](https://github.com/Fair-Exchange/insight-ui-safecoin)
 
 ## Documentation
 

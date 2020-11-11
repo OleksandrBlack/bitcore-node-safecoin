@@ -18,7 +18,7 @@ sudo service mongod start
 
 #bitcore-node-safecoin
 cd
-git clone https://github.com/OleksandrBlack/bitcore-node-safecoin
+git clone https://github.com/Fair-Exchange/bitcore-node-safecoin
 cd bitcore-node-safecoin
 npm install
 cd bin

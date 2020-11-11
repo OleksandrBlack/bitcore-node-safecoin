@@ -15,4 +15,4 @@ cd safecoin
 ./zcutil/build.sh -j$(nproc)
 cd
 echo "Safecoind with extended RPC functionalities is prepared. Please run following command to install insight explorer for safecoin"
-echo "wget -qO- https://raw.githubusercontent.com/OleksandrBlack/bitcore-node-safecoin/master/installExplorer.sh | bash"
+echo "wget -qO- https://raw.githubusercontent.com/Fair-Exchange/bitcore-node-safecoin/master/installExplorer.sh | bash"
